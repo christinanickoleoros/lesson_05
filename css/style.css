@@ -1,0 +1,72 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body{
+    background:rgb(35 31 139);
+}
+
+.header-container{
+    margin:112px 20px;
+}
+
+.container{
+    height:778px;
+    width: 1065px;
+    justify-content: center;
+    margin: 0px 420px;
+}
+
+.header-container h6 {
+font-family: "Montserrat";
+font-size: 14px;
+color:90 84 242;
+opacity:0.2;
+line-height: 24px;
+}
+
+.header-container h2{
+color: white;
+font-family: "Circular Std", sans-serif;
+font-size:36px;
+inline-size:auto;
+line-height: 20px;
+letter-spacing: 0.2;
+}
+
+.header-container p{
+line-height:48px;
+width: 765px;
+color: white;
+opacity:0.2;
+line-height:14px;
+font-family: "Circular Std", sans-serif;
+font-size:14px;
+font-style:bold; 
+}
+
+
+
+.image-row{
+grid-row: auto;
+justify-content: center;
+display: flex;
+object-fit: auto;
+height:360px;
+width:1049px;
+margin:70px, 112px;
+
+}
+
+.img-up {
+margin:20px 20px 150px 20px;
+width:238px;
+height:288px;
+
+}
+
+.img-down {
+margin:150px 20px 20px 20px;
+width:230px;
+height:312px;
+}
+
